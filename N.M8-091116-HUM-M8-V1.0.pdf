@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+<title>/Current/N.M8-091116-HUM-M8-V1.0.pdf - Changes - Manuals - Novasis Redmine</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="IU71u9Wck3DG42pfd0yo1i9VWcFAGKHtNUnJx3cfWI9AHk8NDrKBr8CDfV0h0geUse+ypHYtNi45yBIjvPAIzg==" />
+<link rel='shortcut icon' href='/favicon.ico' />
+<link rel="stylesheet" media="all" href="/stylesheets/jquery/jquery-ui-1.11.0.css" />
+<link rel="stylesheet" media="all" href="/themes/classic/stylesheets/application.css" />
+<link rel="stylesheet" media="all" href="/stylesheets/responsive.css" />
+
+<script src="/javascripts/jquery-1.11.1-ui-1.11.0-ujs-3.1.4.js"></script>
+<script src="/javascripts/application.js"></script>
+<script src="/javascripts/responsive.js"></script>
+<script>
+//<![CDATA[
+$(window).load(function(){ warnLeavingUnsaved('The current page contains unsaved text that will be lost if you leave this page.'); });
+//]]>
+</script>
+
+
+<!-- page specific tags -->
+  <script src="/javascripts/repository_navigation.js"></script>
+<link rel="stylesheet" media="screen" href="/stylesheets/scm.css" />
+</head>
+<body class="theme-Classic project-manuals controller-repositories action-changes">
+<div id="wrapper">
+
+<div class="flyout-menu js-flyout-menu">
+
+
+        <div class="flyout-menu__search">
+            <form action="/projects/manuals/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            <input type="hidden" name="changesets" value="1" />
+            <label class="search-magnifier search-magnifier--flyout" for="flyout-search">&#9906;</label>
+            <input type="text" name="q" id="flyout-search" class="small js-search-input" placeholder="Search" />
+</form>        </div>
+
+        <div class="flyout-menu__avatar flyout-menu__avatar--no-avatar">
+            <a class="user active" href="/users/1">admin</a>
+        </div>
+
+        <h3>Project</h3>
+        <span class="js-project-menu"></span>
+
+    <h3>General</h3>
+    <span class="js-general-menu"></span>
+
+    <span class="js-sidebar flyout-menu__sidebar"></span>
+
+    <h3>Profile</h3>
+    <span class="js-profile-menu"></span>
+
+</div>
+
+<div id="wrapper2">
+<div id="wrapper3">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a class="my-account" href="/my/account">My account</a></li>
+<li><a class="logout" rel="nofollow" data-method="post" href="/logout">Sign out</a></li></ul>    </div>
+    <div id="loggedas">Logged in as <a class="user active" href="/users/1">admin</a></div>
+    <ul><li><a class="home" href="/">Home</a></li>
+<li><a class="my-page" href="/my/page">My page</a></li>
+<li><a class="projects" href="/projects">Projects</a></li>
+<li><a class="administration" href="/admin">Administration</a></li>
+<li><a class="help" href="https://www.redmine.org/guide">Help</a></li></ul></div>
+
+<div id="header">
+
+    <a href="#" class="mobile-toggle-button js-flyout-menu-toggle-button"></a>
+
+    <div id="quick-search">
+        <form action="/projects/manuals/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input type="hidden" name="changesets" value="1" />
+        <label for='q'>
+          <a accesskey="4" href="/projects/manuals/search">Search</a>:
+        </label>
+        <input type="text" name="q" id="q" size="20" class="small" accesskey="f" />
+</form>        <span class="jump-box-arrow"></span><select name="project_quick_jump_box" id="project_quick_jump_box" onchange="if (this.value != &#39;&#39;) { window.location = this.value; }"><option value=''>Jump to a project...</option><option value="" disabled="disabled">---</option><option value="/projects/cables?jump=repository">Cables</option><option value="/projects/erydiosoftware?jump=repository">ErydioSoftware</option><option value="/projects/lcd-novapc?jump=repository">LCD-NOVApc</option><option value="/projects/n_irrx_120918?jump=repository">N.IRRX_120918</option><option value="/projects/n-mec-cbhdmi-shi-201218?jump=repository">n.mec-cbhdmi-shi-201218</option><option value="/projects/n-mec-p-191218?jump=repository">n.mec-p-191218</option><option value="/projects/n-mec-rm-181218?jump=repository">n.mec-rm-181218</option><option value="/projects/n_spdiftx_260918?jump=repository">N.SPDIFTX_260918</option></select>
+    </div>
+
+    <h1>Manuals</h1>
+
+    <div id="main-menu">
+        <ul><li><a class="overview" href="/projects/manuals">Overview</a></li>
+<li><a class="activity" href="/projects/manuals/activity">Activity</a></li>
+<li><a class="issues" href="/projects/manuals/issues">Issues</a></li>
+<li><a accesskey="7" class="new-issue" href="/projects/manuals/issues/new">New issue</a></li>
+<li><a class="gantt" href="/projects/manuals/issues/gantt">Gantt</a></li>
+<li><a class="calendar" href="/projects/manuals/issues/calendar">Calendar</a></li>
+<li><a class="news" href="/projects/manuals/news">News</a></li>
+<li><a class="documents" href="/projects/manuals/documents">Documents</a></li>
+<li><a class="wiki" href="/projects/manuals/wiki">Wiki</a></li>
+<li><a class="files" href="/projects/manuals/files">Files</a></li>
+<li><a class="repository selected" href="/projects/manuals/repository">Repository</a></li>
+<li><a class="settings" href="/projects/manuals/settings">Settings</a></li></ul>
+    </div>
+</div>
+
+<div id="main" class="nosidebar">
+    <div id="sidebar">
+        
+        
+    </div>
+
+    <div id="content">
+        
+        
+
+<div class="contextual">
+  
+<a class="icon icon-stats" href="/projects/manuals/repository/statistics">Statistics</a>
+
+<form id="revision_selector" action="/projects/manuals/repository/changes/Current/N.M8-091116-HUM-M8-V1.0.pdf" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />  <!-- Branches Dropdown -->
+
+
+    | Revision: 
+    <input type="text" name="rev" id="rev" size="8" />
+</form>
+</div>
+
+<h2><a href="/projects/manuals/repository">manuals</a>
+    / <a href="/projects/manuals/repository/show/Current">Current</a>
+    / <a href="/projects/manuals/repository/changes/Current/N.M8-091116-HUM-M8-V1.0.pdf">N.M8-091116-HUM-M8-V1.0.pdf</a>
+
+
+</h2>
+
+
+<p>
+History |
+    <a href="/projects/manuals/repository/entry/Current/N.M8-091116-HUM-M8-V1.0.pdf">View</a> |
+    <a href="/projects/manuals/repository/annotate/Current/N.M8-091116-HUM-M8-V1.0.pdf">Annotate</a> |
+<a href="/projects/manuals/repository/raw/Current/N.M8-091116-HUM-M8-V1.0.pdf">Download</a>
+(760 KB)
+</p>
+
+
+
+<ul class="properties"><li><b>svn:mime-type</b>: <span>application/pdf</span></li></ul>
+
+
+<form action="/projects/manuals/repository/diff/Current/N.M8-091116-HUM-M8-V1.0.pdf" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<table class="list changesets">
+<thead><tr>
+<th>#</th>
+<th></th>
+<th></th>
+<th>Date</th>
+<th>Author</th>
+<th>Comment</th>
+</tr></thead>
+<tbody>
+<tr class="changeset odd">
+<td class="id">
+  <a title="Revision 32" href="/projects/manuals/repository/revisions/32">32</a>
+</td><td class="checkbox"><input type="radio" name="rev" id="cb-1" value="32" onclick="$(&#39;#cbto-2&#39;).prop(&#39;checked&#39;,true);" checked="checked" /></td>
+<td class="checkbox"></td>
+<td class="committed_on">03/05/2019 12:36 PM</td>
+<td class="author">Filippo Visocchi</td>
+<td class="comments"></td>
+</tr>
+<tr class="changeset even">
+<td class="id">
+  <a title="Revision 31" href="/projects/manuals/repository/revisions/31">31</a>
+</td><td class="checkbox"><input type="radio" name="rev" id="cb-2" value="31" onclick="$(&#39;#cbto-3&#39;).prop(&#39;checked&#39;,true);" /></td>
+<td class="checkbox"><input type="radio" name="rev_to" id="cbto-2" value="31" onclick="if ($(&#39;#cb-2&#39;).prop(&#39;checked&#39;)) {$(&#39;#cb-1&#39;).prop(&#39;checked&#39;,true);}" checked="checked" /></td>
+<td class="committed_on">03/05/2019 10:50 AM</td>
+<td class="author">Filippo Visocchi</td>
+<td class="comments"></td>
+</tr>
+<tr class="changeset odd">
+<td class="id">
+  <a title="Revision 29" href="/projects/manuals/repository/revisions/29">29</a>
+</td><td class="checkbox"><input type="radio" name="rev" id="cb-3" value="29" onclick="$(&#39;#cbto-4&#39;).prop(&#39;checked&#39;,true);" /></td>
+<td class="checkbox"><input type="radio" name="rev_to" id="cbto-3" value="29" onclick="if ($(&#39;#cb-3&#39;).prop(&#39;checked&#39;)) {$(&#39;#cb-2&#39;).prop(&#39;checked&#39;,true);}" /></td>
+<td class="committed_on">03/05/2019 10:26 AM</td>
+<td class="author">Filippo Visocchi</td>
+<td class="comments"></td>
+</tr>
+<tr class="changeset even">
+<td class="id">
+  <a title="Revision 25" href="/projects/manuals/repository/revisions/25">25</a>
+</td><td class="checkbox"></td>
+<td class="checkbox"><input type="radio" name="rev_to" id="cbto-4" value="25" onclick="if ($(&#39;#cb-4&#39;).prop(&#39;checked&#39;)) {$(&#39;#cb-3&#39;).prop(&#39;checked&#39;,true);}" /></td>
+<td class="committed_on">03/04/2019 09:25 AM</td>
+<td class="author">Filippo Visocchi</td>
+<td class="comments"><p>Moved dirs</p></td>
+</tr>
+</tbody>
+</table>
+<input type="submit" value="View differences" />
+</form>
+
+
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+<div id="ajax-modal" style="display:none;"></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="https://www.redmine.org/">Redmine</a> &copy; 2006-2015 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+
+<div id='turnkey-credit'> <div> <a href='https://www.turnkeylinux.org/redmine'>Redmine Appliance</a> - Powered by <a href='https://www.turnkeylinux.org'>TurnKey Linux</a> </div> </div>
+</body>
+</html>
